@@ -12,7 +12,6 @@ namespace Back.Models
         public DateTime? Fecha { get; set; }
         public string Descripcion { get; set; }
         public double? Importe { get; set; }
-
         public virtual Mascota IdMascotaNavigation { get; set; }
     }
 }
