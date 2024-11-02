@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP_Veterinaria</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+    <title>Menu Principal</title>
 
-  <body>
-    <header>
-      <input type="checkbox" id="btn_menu">
-      <label for="btn_menu">
-        <img src="images/menuIcono.png" alt="Image not found">
-      </label>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Soporte</a></li>
-          <li><a href="#">Transaccion</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Acerca de</a></li>
-        </ul>
-      </nav>
-    </header>
-  </body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+      <img id="modeImage" src="images/luna.png" alt="Modo Claro" class="img-fluid" style="cursor: pointer;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sistema de Gestión</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="soporteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Soporte
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="soporteDropdown">
+                            <li><a class="dropdown-item" href="abmc_soporte.html">ABMC Soporte</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="transaccionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Transacción
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="transaccionDropdown">
+                            <li><a class="dropdown-item" href="maestro_consulta.html">Consulta Tabla Maestro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Bienvenido al Sistema de Gestión</h1>
+        <p>Utilice el menú para navegar a las diferentes secciones.</p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
 </html>

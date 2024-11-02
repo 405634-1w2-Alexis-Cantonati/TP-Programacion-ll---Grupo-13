@@ -1,74 +1,30 @@
 body {
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: black;
 }
 
-header {
-    width: 100%;
-    background-color: rgba(91, 225, 136, 0.841);
+.navbar {
+    background-color: lightgray;
 }
 
-header label {
-
-    height: 40px;
-    width: 40px;
-    display: none;
-    padding-left: 10px;
+body.dark-mode {
+    background-color: #2c2c2c; 
+    color: white; 
 }
 
-header label img {
-
-    height: 40px;
-    width: 40px;
+.navbar.dark-mode {
+    background-color: #3a3a3a; 
 }
 
-header label :hover {
-    transition: background-color 0.6s;
-    cursor: pointer;
-    background-color: rgb(8, 163, 47);
+.dropdown-menu {
+    height: 50px;
+    width: 200px;
 }
 
-#btn_menu {
-    display: none;
+.container {
+    padding: 50px;
 }
-.menu{
-    display: flex;
-    flex-direction: row;
-}
-
-.menu ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    list-style: none;
-}
-
-.menu li a{
-    padding: 15px 20px;
-    color: rgb(41, 40, 40);
-    text-decoration: none;
-    display: block;
-}
-.menu li a:hover{
-    transition: background-color 0.6s;
-    background-color:  rgb(8, 163, 47);
-}
-@media(max-width:768px){
-    header label {
-        display: block;
-    }
-    .menu{
-        position: absolute;
-        background-color: rgba(91, 225, 136, 0.841);
-        width: 40%;
-        margin-left: 0px;
-        transition: 0.5s;
-        display: none;
-    }
-    #btn_menu:checked + label + .menu {
-        display: block;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
+.img-fluid{
+    height: 30px;
+    width: 30px;
 }

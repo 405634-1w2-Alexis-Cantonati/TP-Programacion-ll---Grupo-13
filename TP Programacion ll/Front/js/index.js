@@ -1,13 +1,18 @@
-function cargar_vista(url, callback=null) {//parámetro opcional
-    fetch(url)
-        .then((res) => {
-            return res.text()
-        })
-        .then((txt) => {
-            const $panel_content = document.getElementById('panel-content')
-            $panel_content.innerHTML = txt
-            
-            if(callback) //si me pasaron una callback entonces la ejecuto
-                callback();
-        })
-}
+const modeToggleImage = document.getElementById('modeImage');
+const body = document.body;
+
+let isDarkMode = false;
+
+modeToggleImage.addEventListener('click', () => {
+
+    isDarkMode = !isDarkMode;
+    body.classList.toggle('dark-mode', isDarkMode);
+
+    if (isDarkMode) {
+        modeToggleImage.src = 'images/sol.png'; // Imagen para modo oscuro
+        modeToggleImage.alt = 'Modo Oscuro';
+    } else {
+        modeToggleImage.src = 'images/luna.png'; // Imagen para modo claro
+        modeToggleImage.alt = 'Modo Claro';
+    }
+});
