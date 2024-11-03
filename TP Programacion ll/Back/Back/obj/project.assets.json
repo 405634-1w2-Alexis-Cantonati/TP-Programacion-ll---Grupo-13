@@ -2013,19 +2013,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\Federico\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
+      "projectUniqueName": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
       "projectName": "Back",
-      "projectPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\obj\\",
+      "projectPath": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
+      "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2083,12 +2083,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

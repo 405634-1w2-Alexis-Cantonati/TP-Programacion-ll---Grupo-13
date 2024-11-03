@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Principal</title>
-
+    <title>Menú Principal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg">
-      <img id="modeImage" src="images/luna.png" alt="Modo Claro" class="img-fluid" style="cursor: pointer;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sistema de Gestión</a>
+            <a class="navbar-brand" href="#">Mi Aplicación</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,7 +24,10 @@
                             Soporte
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="soporteDropdown">
-                            <li><a class="dropdown-item" href="abmc_soporte.html">ABMC Soporte</a></li>
+                            <li><a class="dropdown-item " href="#">Crear</a></li>
+                            <li><a class="dropdown-item" href="#">Consultar</a></li>
+                            <li><a class="dropdown-item" href="#">Modificar</a></li>
+                            <li><a class="dropdown-item" href="#">Eliminar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -32,21 +35,28 @@
                             Transacción
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="transaccionDropdown">
-                            <li><a class="dropdown-item" href="maestro_consulta.html">Consulta Tabla Maestro</a></li>
+                            <li><a class="dropdown-item" href="#">Consultar Maestro</a></li>
+                            <li><a class="dropdown-item" href="#">Crear</a></li>
+                            <li><a class="dropdown-item" href="#">Modificar</a></li>
+                            <li><a class="dropdown-item" href="#">Eliminar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="toggleTheme" title="Cambiar a Modo Oscuro">🌙</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <h1>Bienvenido al Sistema de Gestión</h1>
-        <p>Utilice el menú para navegar a las diferentes secciones.</p>
+    <div class="container mt-5">
+        <h1 class="text-center">Bienvenido a la Aplicación</h1>
+        <p class="text-center">Seleccione una opción del menú para comenzar.</p>
     </div>
     <script src="js/index.js"></script>
 </body>
+
 </html>

@@ -1,30 +1,33 @@
 body {
-    background-color: white;
-    color: black;
-}
-
-.navbar {
-    background-color: lightgray;
+    background-color: #f8f9fa; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark-mode {
-    background-color: #2c2c2c; 
-    color: white; 
+    background-color: #343a40; 
+    color: rgb(183, 181, 181); 
 }
 
-.navbar.dark-mode {
-    background-color: #3a3a3a; 
+h1 {
+    margin-top: 20px;
 }
 
-.dropdown-menu {
-    height: 50px;
-    width: 200px;
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.container {
-    padding: 50px;
+.dropdown-menu{
+    background-color: rgb(169, 247, 247);
+    width: 300px;
 }
-.img-fluid{
-    height: 30px;
-    width: 30px;
+
+.dropdown-item{
+    width: 97%;
+    margin: 5px;
 }
+
+.dropdown-item:hover{
+    border: 1px dashed;
+    transition: 0.5s;
+}
+
