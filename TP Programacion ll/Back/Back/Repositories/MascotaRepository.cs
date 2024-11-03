@@ -1,4 +1,5 @@
 ﻿using Back.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,31 +8,52 @@ using System.Threading.Tasks;
 
 namespace Back.Repositories
 {
-    internal class MascotaRepository : IMascotaRepository
+    public class MascotaRepository : IMascotaRepository
     {
+        private VETERINARIAContext _context;
+        public MascotaRepository(VETERINARIAContext context)
+        {
+            _context = context;
+        }
         public bool Create(Mascota obj)
         {
-            throw new NotImplementedException();
+            if (obj != null && GetById(Convert.ToInt32(obj.IdMascota)) == null)
+            {
+                _context.Mascotas.Add(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var obj = GetById(id);
+            if (obj != null)
+            {
+                _context.Mascotas.Remove(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public List<Mascota> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Mascotas.ToList();
         }
 
         public Mascota? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Mascotas.Find(id);
         }
 
         public bool Update(Mascota obj)
         {
-            throw new NotImplementedException();
+            if (obj != null)
+            {
+                _context.Mascotas.Update(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
     }
 }

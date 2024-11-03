@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Back.Models
 {
@@ -12,6 +13,7 @@ namespace Back.Models
         public DateTime? Fecha { get; set; }
         public string Descripcion { get; set; }
         public double? Importe { get; set; }
+        [JsonIgnore]
         public virtual Mascota IdMascotaNavigation { get; set; }
     }
 }

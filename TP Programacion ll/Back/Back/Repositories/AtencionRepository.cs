@@ -7,31 +7,52 @@ using System.Threading.Tasks;
 
 namespace Back.Repositories
 {
-    internal class AtencionRepository : IAtencionRepository
+    public class AtencionRepository : IAtencionRepository
     {
+        private VETERINARIAContext _context;
+        public AtencionRepository(VETERINARIAContext context)
+        {
+            _context = context;
+        }
         public bool Create(Atencion obj)
         {
-            throw new NotImplementedException();
+            if (obj != null && GetById(Convert.ToInt32(obj.IdAtencion)) == null)
+            {
+                _context.Atencions.Add(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var obj = GetById(id);
+            if (obj != null)
+            {
+                _context.Atencions.Remove(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public List<Atencion> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Atencions.ToList();
         }
 
         public Atencion? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Atencions.Find(id);
         }
 
         public bool Update(Atencion obj)
         {
-            throw new NotImplementedException();
+            if (obj != null)
+            {
+                _context.Atencions.Update(obj);
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
     }
 }

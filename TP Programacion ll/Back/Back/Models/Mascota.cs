@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Back.Models
 {
@@ -18,8 +19,11 @@ namespace Back.Models
         public string Nombre { get; set; }
         public int? Edad { get; set; }
 
+        [JsonIgnore]
         public virtual Cliente IdClienteNavigation { get; set; }
+        [JsonIgnore]
         public virtual Tipo IdTipoNavigation { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Atencion> Atencions { get; set; }
     }
 }

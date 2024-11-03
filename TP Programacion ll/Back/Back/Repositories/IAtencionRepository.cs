@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Back.Repositories
 {
-    internal interface IAtencionRepository
+    public interface IAtencionRepository
     {
         public bool Create(Atencion obj);
         public bool Update(Atencion obj);

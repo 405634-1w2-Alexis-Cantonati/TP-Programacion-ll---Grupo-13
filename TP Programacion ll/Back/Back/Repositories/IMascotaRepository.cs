@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Back.Repositories
 {
-    internal interface IMascotaRepository
+    public interface IMascotaRepository
     {
         public bool Create(Mascota obj);
         public bool Update(Mascota obj);
