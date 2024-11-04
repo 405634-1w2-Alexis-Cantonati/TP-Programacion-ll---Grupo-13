@@ -38,7 +38,9 @@ namespace Back.Repositories
 
         public List<Mascota> GetAll()
         {
-            return _context.Mascotas.ToList();
+            return _context.Mascotas.Include(m => m.IdClienteNavigation)
+                   .Include(m => m.IdTipoNavigation)
+                   .ToList(); ;
         }
 
         public Mascota? GetById(int id)
