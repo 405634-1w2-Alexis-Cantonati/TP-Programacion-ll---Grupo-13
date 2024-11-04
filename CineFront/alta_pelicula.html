@@ -1,0 +1,31 @@
+<h3> Registrar alta de película </h3>
+<form>
+    <div class="alert alert-danger alert-dismissible fade show" hidden role="alert" id="error">
+        <strong>Error</strong> al registrar la pelicula. Intente nuevamente!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" hidden role="alert" id="ok">
+        Se registró exitosamente!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+    </div>
+    <div class="form-group">
+      <label for="titulo">Título:</label>
+      <input type="text" class="form-control" id="titulo">
+    </div>
+    <div class="form-group">
+      <label for="dire">Director:</label>
+      <input type="text" class="form-control" id="dire">
+    </div>
+    <div class="form-group">
+      <label for="anio">Año:</label>
+      <input type="number" class="form-control" id="anio">
+    </div>
+    <div class="form-group">
+      <label for="generos">Genero:</label>
+      <select class="form-select" id="generos">
+      </select>    
+    </div>
+    <br/>
+    <button type="button" onclick="registrar_alta();" class="btn btn-primary">Registrar</button>
+    <a href="index.html">Inicio</a>
+  </form>
