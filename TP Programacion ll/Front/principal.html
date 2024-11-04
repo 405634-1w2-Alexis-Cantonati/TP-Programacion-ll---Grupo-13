@@ -13,38 +13,36 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Aplicación</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="principal.html">Mi Aplicación</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="soporteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="soporteDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Soporte
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="soporteDropdown">
-                            <li><a class="dropdown-item " href="#">Crear</a></li>
-                            <li><a class="dropdown-item" href="#">Consultar</a></li>
-                            <li><a class="dropdown-item" href="#">Modificar</a></li>
-                            <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                            <li><a class="dropdown-item " onclick="cargarVista('abmc-html/alta.html')">Crear</a></li>
+                            <li><a class="dropdown-item" onclick="cargarVista('abmc-html/consulta.html')">Consultar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="transaccionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="transaccionDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Transacción
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="transaccionDropdown">
                             <li><a class="dropdown-item" href="#">Consultar Maestro</a></li>
-                            <li><a class="dropdown-item" href="#">Crear</a></li>
-                            <li><a class="dropdown-item" href="#">Modificar</a></li>
-                            <li><a class="dropdown-item" href="#">Eliminar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Dashboard</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item-i">
                         <a class="nav-link" href="#" id="toggleTheme" title="Cambiar a Modo Oscuro">🌙</a>
                     </li>
                 </ul>
@@ -53,8 +51,10 @@
     </nav>
 
     <div class="container mt-5">
-        <h1 class="text-center">Bienvenido a la Aplicación</h1>
-        <p class="text-center">Seleccione una opción del menú para comenzar.</p>
+        <h1 class="text-center" id="titulo">Bienvenido a la Aplicación</h1>
+        <div class="container d-flex justify-content-center align-items-center full-height" id="global-text">
+            <p class="text-center">Seleccione una opción del menú para comenzar.</p>
+        </div>
     </div>
     <script src="js/index.js"></script>
 </body>

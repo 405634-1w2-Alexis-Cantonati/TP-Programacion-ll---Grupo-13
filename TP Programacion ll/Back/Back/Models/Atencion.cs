@@ -9,10 +9,10 @@ namespace Back.Models
     public partial class Atencion
     {
         public int IdAtencion { get; set; }
-        public int? IdMascota { get; set; }
-        public DateTime? Fecha { get; set; }
+        public int IdMascota { get; set; }
+        public DateTime Fecha { get; set; }
         public string Descripcion { get; set; }
-        public double? Importe { get; set; }
+        public double Importe { get; set; }
         [JsonIgnore]
         public virtual Mascota IdMascotaNavigation { get; set; }
     }

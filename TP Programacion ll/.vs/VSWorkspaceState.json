@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Back",
+    "\\Back\\Api",
+    "\\Back\\Back",
+    "\\Back\\Back\\Repositories",
     "\\Front"
   ],
-  "SelectedNode": "\\Back\\Veterinaria Api.sln",
+  "SelectedNode": "\\Back\\Api\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

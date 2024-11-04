@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#sidebar {
+    background-color: #007bff;
+    min-width: 250px;
+    max-width: 250px;
+    color: white;
+    transition: all 0.3s;
+}
+
+#sidebar.collapsed {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+#sidebar .nav-link {
+    color: white;
+}
+
+#sidebar .nav-link span {
+    margin-left: 10px;
+}
+
+#sidebar.collapsed .nav-link span {
+    display: none;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#toggle-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#toggle-btn:hover {
+    color: #ffffffb3;
+}
+
+#toggle-icon {
+    transition: transform 0.3s;
+}
+
+#sidebar.collapsed #toggle-icon {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,32 @@
+<div class="">
+    <h2 class="text-center"> Nuevos pacientes</h2>
+    <form class= "p-4 border rounded shadow">
+        <div class="alert alert-danger alert-dismissible fade show" hidden role="alert" id="error">
+            <strong>Error</strong> al registrar su mascota. Intente nuevamente!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show" hidden role="alert" id="ok">
+            Se registró exitosamente!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+        </div>
+
+        <div class="form-group">
+            <label for="tipo">Tipo:</label>
+            <input type="text" class="form-control" id="tipo" placeholder="Perro, gato, etc" required>
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" class="form-control" id="edad" min="0" required>
+        </div>
+       
+        <div class="botonera">
+            <button type="button" class="btn btn-secondary">Enviar</button>
+            <a href="/TP Programacion ll/Front/principal.html" type="button" class="btn btn-secondary">Inicio</a>
+        </div>
+    </form>
+</div>
+
