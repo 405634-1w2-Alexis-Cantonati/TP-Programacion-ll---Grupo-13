@@ -90,6 +90,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api.Controllers.ClienteController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api.Controllers.MascotaController",
     "Method": "GetAll",
     "RelativePath": "api/Mascota",

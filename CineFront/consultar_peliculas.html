@@ -1,0 +1,32 @@
+<div class="row g-3 align-items-center">
+    <h5>Consultar películas </h5>
+    <div class="col-auto">
+      <label for="generos" class="col-form-label">Ingresar genero:</label>
+    </div>
+    <div class="col-auto">
+      <select class="form-select" id="generos">
+      </select>    
+    </div>
+    <div class="col-auto">
+        <button type="button" class="btn btn-primary" onclick="consultar_peliculas();">Consultar </button>
+      </div>
+  </div>
+  <div id="resultados">
+    <table class="table mt-3">
+      <thead>
+        <tr>
+          <th style="display: none;" scope="col">#</th>
+          <th scope="col">Título</th>
+          <th scope="col">Director</th>
+          <th scope="col">Año</th>
+          <th scope="col">Género</th>
+          <th scope="col">Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>  
+  </div>
+  <script>
+</script>
+
+    

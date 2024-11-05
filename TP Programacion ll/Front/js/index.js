@@ -140,19 +140,20 @@ async function consultarMascotaId(id) {
 
 async function crearMascota() {
     const idMascota = 0;
-    const idTipo = parseInt(document.getElementById("tipo").value);
-    const idCliente = 1;
+    const idTipo = parseInt(document.getElementById("tipoMascota").value);
+    const nombreMascota = document.getElementById('nombreMascota').value;
 
-    const nombre = document.getElementById('nombre').value;
-    const edad = document.getElementById('edad').value;
+    const idCliente = document.getElementById("nombreCliente").value;
+
 
     const datos = {
         idMascota: 0,
         idTipo: idTipo,
         idCliente: idCliente,
-        nombre: nombre,
+        nombre: nombreMascota,
         edad: edad
     };
+
     try {
         const respuesta = await fetch(`https://localhost:7042/api/Mascota`, {
             method: 'POST',
@@ -181,7 +182,42 @@ async function modificarMascota() {
 
 }
 
-//falta la funcion de modificar 
-//en el formulario de modificar debo traer tambien la fecha de atencion y el nombre de cliente
-//en transaccion es lo mismo que consultar pero trae todos los datos 
+/*async function obtenerIdCliente(cliente) {
+    const response = await fetch('https://localhost:7042/api/Cliente', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(cliente)
+    });
+    var a = await response.json()
+    return a.idCliente
+}*/
+
+async function cargarClientes(modo) {
+
+    try {
+        const $clientes = document.getElementById('nombreCliente');
+        $clientes.innerHTML = '';
+        const response = await fetch(`https://localhost:7042/api/Cliente`);
+        const clientes = await response.json();
+
+        clientes.forEach(cliente => {
+            const $option = document.createElement('option');
+            $option.value = cliente.idCliente;
+            $option.textContent = cliente.nombre;
+            $clientes.appendChild($option);
+        });
+
+    } catch (error) {
+        console.error("Error al cargar los clientes:", error);
+    }
+
+}
+
+
+
+//falta la funcion de modificar --> se supone que ya esta
+//en el formulario de modificar debo traer tambien la fecha de atencion y el nombre de cliente -->se supone ya esta pero ahora tira un 400 al enviar
+//en transaccion es lo mismo que consultar pero trae todos los datos
 //en dashboard tengo que ver que muestro

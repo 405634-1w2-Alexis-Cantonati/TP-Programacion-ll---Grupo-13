@@ -2,5 +2,6 @@
 
 public interface IClienteRepository
 { 
-    public bool Create(Cliente obj);
+    public Cliente Create(Cliente obj);
+    public List<Cliente> GetAll();
 }

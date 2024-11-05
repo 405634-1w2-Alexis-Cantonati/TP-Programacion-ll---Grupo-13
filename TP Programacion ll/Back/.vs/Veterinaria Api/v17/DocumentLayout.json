@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:53:28.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "Back\\Repositories\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
               "RelativeToolTip": "Back\\Repositories\\ClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T03:24:11.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IClienteRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:07:00.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:52:00.043Z",
               "EditorCaption": ""
             }
           ]

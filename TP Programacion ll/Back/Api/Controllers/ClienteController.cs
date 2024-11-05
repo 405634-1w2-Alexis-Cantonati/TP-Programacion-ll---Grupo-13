@@ -23,7 +23,6 @@ namespace Api.Controllers
             {
                 if (!string.IsNullOrEmpty(obj.Nombre) && !string.IsNullOrEmpty(obj.Sexo))
                 {
-
                     return Ok(_repository.Create(obj));
                 }
                 throw new Exception();
@@ -31,6 +30,18 @@ namespace Api.Controllers
             catch (Exception)
             {
 
+                return BadRequest("Error Interno");
+            }
+        }
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            try
+            {
+                return Ok(_repository.GetAll());
+            }
+            catch (Exception)
+            {
                 return BadRequest("Error Interno");
             }
         }

@@ -13,8 +13,9 @@
         </div>
 
         <div class="form-group">
+            <h5 class="subtitulo">Informacion de la mascota</h5>
             <label for="tipo">Tipo:</label>
-            <select id="tipo" name="tipo" class="form-control">
+            <select id="tipoMascota" name="tipo" class="form-control" required>
                 <option value="1"> Perro</option>
                 <option value="2">Gato</option>
                 <option value="3">Ave</option>
@@ -24,17 +25,36 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" class="form-control" id="nombre" required>
+            <label for="nombreMascota">Nombre:</label>
+            <input type="text" class="form-control" id="nombreMascota" required >
         </div>
         <div class="form-group">
             <label for="edad">Edad:</label>
             <input type="number" class="form-control" id="edad" min="0" required>
         </div>
 
+        <div class="form-group">
+            <label for="edad">Fecha de atencion:</label>
+            <input type="date" class="form-control" id="fecha" min="2020-01-01" max="2024-12-31" required>
+        </div>
+
+        <div>
+            <h5 class="subtitulo">Información del cliente</h5>
+
+            <div id="selectCliente" >
+                <button type="button" class="btn btn-secondary" onclick="cargarClientes()">Consultar datos</button>
+                <label for="nombreCliente">Seleccione un cliente:</label>
+                <select id="nombreCliente" name="tipo" class="form-control" required>
+                </select>
+            </div>
+        </div>
+
         <div class="botonera">
             <button type="button" class="btn btn-secondary" onclick="crearMascota()">Enviar</button>
             <a href="/TP Programacion ll/Front/principal.html" type="button" class="btn btn-secondary">Inicio</a>
         </div>
+
     </form>
 </div>
+
+

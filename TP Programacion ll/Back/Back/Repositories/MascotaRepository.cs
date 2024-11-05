@@ -40,7 +40,7 @@ namespace Back.Repositories
         {
             return _context.Mascotas.Include(m => m.IdClienteNavigation)
                    .Include(m => m.IdTipoNavigation)
-                   .ToList(); ;
+                   .ToList(); 
         }
 
         public Mascota? GetById(int id)

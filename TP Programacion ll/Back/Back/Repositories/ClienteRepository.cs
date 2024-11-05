@@ -1,4 +1,5 @@
 ﻿using Back.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,14 +15,20 @@ namespace Back.Repositories
         {
             _context = context;
         }
-        public bool Create(Cliente obj)
+        public Cliente Create(Cliente obj)
         {
             if (obj != null)
             {
                 _context.Clientes.Add(obj);
-                return _context.SaveChanges() > 0;
+                _context.SaveChanges();
+                return obj;
             }
-            return false;
+            return null;
+        }
+
+        public List<Cliente> GetAll()
+        {
+            return _context.Clientes.ToList(); 
         }
     }
 }
