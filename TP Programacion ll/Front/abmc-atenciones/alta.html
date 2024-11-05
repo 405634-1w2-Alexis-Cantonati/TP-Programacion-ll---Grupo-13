@@ -1,0 +1,40 @@
+<div>
+    <h2 class="text-center"> Nueva atencion</h2>
+    <form class="p-4 border rounded shadow">
+        <div class="alert alert-danger alert-dismissible fade show" hidden role="alert" id="error">
+            <strong>Error</strong> al registrar la atencion. Intente nuevamente!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                onclick="cerrar();"></button>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show" hidden role="alert" id="ok">
+            Se registró exitosamente!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                onclick="cerrar();"></button>
+        </div>
+
+        <div class="form-group">
+            <h5 class="subtitulo">Informacion de la atencion</h5>
+            <label for="mascota">Mascota:</label>
+            <select id="mascotaSelect" name="mascota" class="form-control" required>
+                <option value="">Selecciona una mascota</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Descripcion">Descripcion:</label>
+            <input type="text" class="form-control" id="Descripcion" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Importe">Importe:</label>
+            <input type="number" class="form-control" id="Importe" required>
+        </div>
+
+        <div class="botonera">
+            <button type="button" class="btn btn-secondary" onclick="crearAtencion()">Enviar</button>
+            <a href="/TP Programacion ll/Front/principal.html" type="button" class="btn btn-secondary">Inicio</a>
+        </div>
+
+    </form>
+</div>
+
+

@@ -216,6 +216,121 @@ async function cargarClientes(modo) {
 }
 
 
+//ABMC DE ATENCIONES
+
+async function consultarAtenciones() {
+    try {
+        const response = await fetch("https://localhost:7042/api/Atencion");
+        const atenciones = await response.json();
+        const $tbody = document.getElementById("tbody")
+        document.getElementById("thead").removeAttribute("hidden")
+        console.log(atenciones);
+
+        let tbody = ""
+        atenciones.forEach(element => {
+            tbody += `
+            <tr>
+                <td>
+                    ${element.idMascota}
+                </td>
+                <td>
+                    ${element.fecha}
+                </td>
+                <td>
+                    ${element.descripcion}
+                </td>
+                <td>
+                    ${element.importe}
+                </td>
+                <td>
+                    <button onClick='eliminarAtencion(${element.idAtencion})' class="btn btn-danger">Eliminar</button>
+                </td>
+               <td><button onClick='modificarAtencion(${element.idAtencion})' class="btn btn-info">Modificar</button></td>
+            </tr>`
+        });
+
+        $tbody.innerHTML = tbody;
+    }
+    catch (error) {
+        console.error("Error al cargar las atenciones:", error);
+    }
+};
+
+async function eliminarAtencion(id) {
+    try {
+        if (window.confirm("Seguro que desea registrar la baja de la atencion?")) {
+            console.log(id);
+
+            const response =
+                await fetch(`https://localhost:7042/api/Atencion?id=${id}`, { method: 'DELETE' });
+            if (response.ok) {
+                consultarAtenciones()
+            } else {
+                alert('No se pudo eliminar la atencion');
+            }
+        }
+    } catch (error) {
+        console.error("Error al registrar la baja de la atencion:", error);
+    }
+}
+
+async function crearAtencion() {
+    const idAtencion = 0;
+    const mascotaId = document.getElementById("mascotaSelect").value;
+    const Descripcion = document.getElementById("Descripcion").value
+    const Importe = document.getElementById("Importe").value
+
+
+    const datos = {
+        idAtencion: 0,
+        idMascota: mascotaId,
+        //configura dia y hora locales
+        fecha: new Date().toLocaleString("sv-SE").replace(" ", "T"),
+        descripcion: Descripcion,
+        importe: parseFloat(Importe)
+    };
+
+    try {
+        const respuesta = await fetch(`https://localhost:7042/api/Atencion`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(datos)
+        });
+
+        if (respuesta.ok) {
+            document.getElementById('ok').hidden = false;
+        } else {
+            document.getElementById('error').hidden = false;
+        }
+    } catch (error) {
+        document.getElementById('error').hidden = false;
+    }
+}
+// metodo que se activa cuando cargas el alta de atenciones, sirve para cargar
+// los nombres de las mascotas en un select y asignarle el valor del id
+async function cargarMascotas() {
+    try {
+        const response = await fetch('https://localhost:7042/api/Mascota');
+        if (!response.ok) throw new Error('Error al obtener datos de la API');
+
+        const mascotas = await response.json();
+
+        const mascotaSelect = document.getElementById('mascotaSelect');
+        mascotaSelect.innerHTML = '<option value="">Selecciona una mascota</option>';
+
+        // Agrega cada mascota como una opción en el select
+        mascotas.forEach(mascota => {
+            const option = document.createElement('option');
+            option.value = mascota.idMascota;       // Usa el id de la mascota como valor
+            option.textContent = mascota.nombre; // Usa el nombre de la mascota como texto
+            mascotaSelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
 
 //falta la funcion de modificar --> se supone que ya esta
 //en el formulario de modificar debo traer tambien la fecha de atencion y el nombre de cliente -->se supone ya esta pero ahora tira un 400 al enviar

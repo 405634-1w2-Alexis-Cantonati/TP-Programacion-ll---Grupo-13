@@ -1,0 +1,3 @@
+  //Cadena de conexion de alexis : "Data Source=DESKTOP-HUKFAHD\\MSSQLSERVER01;Initial Catalog=VETERINARIA_TP;Integrated Security=True"
+
+  //Cadena de conexion de ?? : "Data Source=DESKTOP-QMJF5KL;Initial Catalog=VETERINARIA_TP;Integrated Security=True;Trust Server Certificate=True"
