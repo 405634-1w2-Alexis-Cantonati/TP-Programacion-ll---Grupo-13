@@ -50,12 +50,27 @@ namespace Api.Controllers
                 return BadRequest("Error Interno");
             }
         }
-        [HttpPut]
-        public IActionResult Put([FromBody] Mascota obj)
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Mascota obj)
         {
+            if (id != obj.IdMascota)
+            {
+                return BadRequest("El ID de la mascota no coincide.");
+            }
             try
             {
-                return Ok(_repository.Update(obj));
+                var existingMascota = _repository.GetById(id);
+                if (existingMascota == null)
+                {
+                    return NotFound("Mascota no encontrada.");
+                }
+
+                existingMascota.Nombre = obj.Nombre;
+                existingMascota.IdCliente = obj.IdCliente;
+                existingMascota.IdTipo = obj.IdTipo;
+                existingMascota.Edad = obj.Edad;
+
+                return Ok(_repository.Update(existingMascota));
             }
             catch (Exception)
             {
