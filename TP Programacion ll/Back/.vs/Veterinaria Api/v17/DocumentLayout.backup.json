@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Atencion.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
+              "RelativeDocumentMoniker": "Back\\Models\\Atencion.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
+              "RelativeToolTip": "Back\\Models\\Atencion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:12:29.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\appsettings.json",
               "RelativeDocumentMoniker": "Api\\appsettings.json",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "efpt.config.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\efpt.config.json",
               "RelativeDocumentMoniker": "Back\\efpt.config.json",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\ClienteController.cs",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "Back\\Repositories\\ClienteRepository.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "Back\\Repositories\\IClienteRepository.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AtencionController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\AtencionController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\AtencionController.cs",

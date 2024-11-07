@@ -67,8 +67,7 @@
               "RelativeToolTip": "Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T14:34:51.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T14:34:51.153Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Back\\efpt.config.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T14:34:40.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T14:34:40.916Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:53:28.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:53:28.414Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:52:00.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:52:00.043Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Api\\Controllers\\AtencionController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:38:54.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T14:38:54.249Z"
             }
           ]
         }
