@@ -26,7 +26,7 @@
                             Transaccion
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="soporteDropdown">
-                            <li><a class="dropdown-item " onclick="cargarVista('abmc-html/alta.html')">Crear</a></li>
+                            <li><a class="dropdown-item " onclick="cargarVista('abmc-html/alta.html');cargarTipos()">Crear</a></li>
                             <li><a class="dropdown-item" onclick="cargarVista('abmc-html/consulta.html')">Consultar</a></li>
                         </ul>
                     </li>
@@ -50,13 +50,14 @@
             </div>
         </div>
     </nav>
-
     <div class="container mt-5">
         <h1 class="text-center" id="titulo">Bienvenido a la Aplicación</h1>
         <div class="container d-flex justify-content-center align-items-center full-height" id="global-text">
             <p class="text-center">Seleccione una opción del menú para comenzar.</p>
         </div>
     </div>
+    <script src="js/mascota.js"></script>
+    <script src="js/atencion.js"></script>
     <script src="js/index.js"></script>
     
 </body>

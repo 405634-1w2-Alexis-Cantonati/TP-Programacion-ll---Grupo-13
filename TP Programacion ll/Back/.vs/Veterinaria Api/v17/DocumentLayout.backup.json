@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\tipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\tipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\tiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\tiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\itiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\itiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +74,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Atencion.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
-              "RelativeDocumentMoniker": "Back\\Models\\Atencion.cs",
-              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
-              "RelativeToolTip": "Back\\Models\\Atencion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TipoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\TipoController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\TipoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\TipoController.cs",
+              "RelativeToolTip": "Api\\Controllers\\TipoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:12:29.031Z",
+              "WhenOpened": "2024-11-07T23:09:30.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ITipoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ITipoRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\ITipoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ITipoRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\ITipoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:07:49.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:53:28.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs*",
+              "RelativeToolTip": "Api\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:52:00.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MascotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\MascotaRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\MascotaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\MascotaRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\MascotaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:08:53.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAtencionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IAtencionRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\IAtencionRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IAtencionRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\IAtencionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:08:10.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\TipoRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\TipoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\TipoRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\TipoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:07:24.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AtencionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\AtencionRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\AtencionRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\AtencionRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\AtencionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:08:08.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:24:11.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Mascota.cs",
+              "RelativeDocumentMoniker": "Back\\Models\\Mascota.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Mascota.cs",
+              "RelativeToolTip": "Back\\Models\\Mascota.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T22:56:27.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\appsettings.json",
               "RelativeDocumentMoniker": "Api\\appsettings.json",
@@ -72,7 +221,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "MascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\MascotaController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\MascotaController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\MascotaController.cs",
+              "RelativeToolTip": "Api\\Controllers\\MascotaController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:00:43.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AtencionController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\AtencionController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\AtencionController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\AtencionController.cs",
+              "RelativeToolTip": "Api\\Controllers\\AtencionController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:38:54.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "efpt.config.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\efpt.config.json",
               "RelativeDocumentMoniker": "Back\\efpt.config.json",
@@ -80,37 +255,24 @@
               "RelativeToolTip": "Back\\efpt.config.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T14:34:40.916Z",
+              "WhenOpened": "2024-11-05T14:34:40.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Atencion.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
+              "RelativeDocumentMoniker": "Back\\Models\\Atencion.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Atencion.cs",
+              "RelativeToolTip": "Back\\Models\\Atencion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:12:29.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:53:28.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Repositories\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\ClienteRepository.cs",
-              "RelativeToolTip": "Back\\Repositories\\ClienteRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:24:11.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "Back\\Repositories\\IClienteRepository.cs",
@@ -119,32 +281,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T04:07:00.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:52:00.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AtencionController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\AtencionController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\AtencionController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\AtencionController.cs",
-              "RelativeToolTip": "Api\\Controllers\\AtencionController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:38:54.249Z",
-              "EditorCaption": ""
             }
           ]
         }

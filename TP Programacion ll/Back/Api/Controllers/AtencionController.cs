@@ -60,7 +60,7 @@ namespace Api.Controllers
             catch (Exception)
             {
 
-                return BadRequest("Error Interno");
+                return BadRequest("Error Interno ");
             }
         }
         [HttpPost]
