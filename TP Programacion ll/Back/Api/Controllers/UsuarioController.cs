@@ -60,13 +60,17 @@ namespace Api.Controllers
         public IActionResult Create(Usuario usuario)
         {
             var response = _repository.Create(usuario);
-            if (response)
+            if (response == 1)
             {
-                return Ok("Satisfactorio");
+                return Ok(new { message = "1" });
+            }
+            if (response == 2)
+            {
+                return BadRequest(new { message = "2" });
             }
             else
             {
-                return BadRequest("Problema");
+                return BadRequest(new { message = "0" });
             }
         }
 

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace Back.Repositories
             }
             return false;
         }
-        public bool Create(Usuario usuario)
+        public int Create(Usuario usuario)
         {
             var aux = _context.Usuarios.FirstOrDefault(e => e.NUsuario == usuario.NUsuario);
             if (aux == null)
@@ -37,11 +38,11 @@ namespace Back.Repositories
                 var response = _context.SaveChanges();
                 if (response > 0)
                 {
-                    return true;
+                    return 1; //Se pudo hacer
                 }
+                return 0; //No se pudo hacer
             }
-            return false;
+            return 2; //No se pudo hacer pero por el nombre
         }
-
     }
 }

@@ -9,7 +9,7 @@ namespace Back.Repositories
 {
     public interface IUsuarioRepository
     {
-        public bool Create(Usuario usuario);
+        public int Create(Usuario usuario);
         public bool IniciarSesion(Usuario usuario);
 
     }

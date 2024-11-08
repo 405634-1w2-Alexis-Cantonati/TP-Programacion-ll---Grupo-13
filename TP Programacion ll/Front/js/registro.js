@@ -10,7 +10,7 @@ document.getElementById("formRegistro").addEventListener("submit", function (eve
         NUsuario: usuario,
         constraseña: contrasena
     }
-    
+
     fetch("https://localhost:7042/api/Usuario/registro", {
         method: "POST",
         headers: {
@@ -18,13 +18,22 @@ document.getElementById("formRegistro").addEventListener("submit", function (eve
         },
         body: JSON.stringify(data)
     })
-        .then(response => response.json(),)
+        .then(response => response.json(),
+
+
+        )
         .then(data => {
-            if (data) {
+            let aux = data.message
+            console.log(aux);
+
+            if (aux == 1) {
                 alert("Gracias por registrarse. Ahora puede ingresar sus credenciales.")
-                /*window.location.href = "login.html";*/
-            } else {
+                window.location.href = "login.html";
+            }
+            else if (aux == 2) {
                 alert("El nombre de usuario ya esta en uso. Elija otro.");
+            } else {
+                throw new Error
             }
         })
         .catch(error => {
