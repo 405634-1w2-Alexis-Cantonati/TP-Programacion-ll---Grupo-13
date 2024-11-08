@@ -3,28 +3,86 @@
   "WorkspaceRootPath": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\veterinariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\veterinariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\tipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\tipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\federico\\desktop\\tup\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\tiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\tiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\itiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\itiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B37EF0EC-B91D-4A7F-A006-066BC0ED167D}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\models\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|c:\\users\\administrador\\onedrive\\escritorio\\tp-programacion-ll---grupo-13\\tp programacion ll\\back\\back\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA71389-749E-4381-9552-28FE91DECB0F}|Back\\Back.csproj|solutionrelative:back\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +92,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,12 +105,20 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:24:30.734Z",
+=======
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
@@ -62,10 +127,34 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T03:52:00.043Z",
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:24:27.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Back\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Usuario.cs",
+              "RelativeToolTip": "Back\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:16:21.861Z"
+=======
               "DocumentIndex": 1,
               "Title": "TipoController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\TipoController.cs",
@@ -86,63 +175,58 @@
               "RelativeToolTip": "Back\\Repositories\\ITipoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
+              "WhenOpened": "2024-11-07T23:07:49.112Z",
+              "EditorCaption": ""
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
+=======
               "WhenOpened": "2024-11-07T23:07:49.112Z"
 >>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Back\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAEwB0AAAAIAAAAAAAAAA==",
+<<<<<<< HEAD
+              "Title": "VETERINARIAContext.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\VETERINARIAContext.cs",
+              "RelativeDocumentMoniker": "Back\\Models\\VETERINARIAContext.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\VETERINARIAContext.cs",
+              "RelativeToolTip": "Back\\Models\\VETERINARIAContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-11-07T23:24:30.734Z"
+              "WhenOpened": "2024-11-07T23:12:56.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Repositories\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Back\\Repositories\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:24:27.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:23:53.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T21:29:57.529Z"
 =======
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T03:53:28.414Z"
->>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Back\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\Usuario.cs",
-              "RelativeToolTip": "Back\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Title": "MascotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\MascotaRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\MascotaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\MascotaRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\MascotaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-11-07T23:16:21.861Z"
-=======
               "WhenOpened": "2024-11-07T23:08:53.392Z"
             },
             {
@@ -156,37 +240,29 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T23:08:10.19Z"
->>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VETERINARIAContext.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\VETERINARIAContext.cs",
-              "RelativeDocumentMoniker": "Back\\Models\\VETERINARIAContext.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Models\\VETERINARIAContext.cs",
-              "RelativeToolTip": "Back\\Models\\VETERINARIAContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Title": "TipoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\TipoRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\TipoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\TipoRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\TipoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-11-07T23:12:56.941Z"
-=======
               "WhenOpened": "2024-11-07T23:07:24.473Z"
->>>>>>> Stashed changes
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Federico\\Desktop\\TUP\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Api\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AtencionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\AtencionRepository.cs",
+              "RelativeDocumentMoniker": "Back\\Repositories\\AtencionRepository.cs",
+              "ToolTip": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Repositories\\AtencionRepository.cs",
+              "RelativeToolTip": "Back\\Repositories\\AtencionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-11-07T21:29:57.529Z"
-=======
               "WhenOpened": "2024-11-07T23:08:08.743Z"
             },
             {
@@ -284,7 +360,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T04:07:00.515Z"
->>>>>>> Stashed changes
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
             }
           ]
         }
