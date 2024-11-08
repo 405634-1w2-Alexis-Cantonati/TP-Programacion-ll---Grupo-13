@@ -163,8 +163,7 @@
               "RelativeToolTip": "Api\\Controllers\\TipoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:09:30.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:09:30.88Z"
             },
             {
               "$type": "Document",
@@ -176,9 +175,13 @@
               "RelativeToolTip": "Back\\Repositories\\ITipoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-11-07T23:07:49.112Z",
               "EditorCaption": ""
 >>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
+=======
+              "WhenOpened": "2024-11-07T23:07:49.112Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
@@ -212,8 +215,7 @@
               "RelativeToolTip": "Api\\Controllers\\ClienteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:53:28.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:53:28.414Z"
             },
             {
               "$type": "Document",
@@ -225,8 +227,7 @@
               "RelativeToolTip": "Back\\Repositories\\MascotaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:08:53.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:08:53.392Z"
             },
             {
               "$type": "Document",
@@ -238,8 +239,7 @@
               "RelativeToolTip": "Back\\Repositories\\IAtencionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:08:10.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:08:10.19Z"
             },
             {
               "$type": "Document",
@@ -251,8 +251,7 @@
               "RelativeToolTip": "Back\\Repositories\\TipoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:07:24.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:07:24.473Z"
             },
             {
               "$type": "Document",
@@ -264,8 +263,7 @@
               "RelativeToolTip": "Back\\Repositories\\AtencionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:08:08.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:08:08.743Z"
             },
             {
               "$type": "Document",
@@ -277,8 +275,7 @@
               "RelativeToolTip": "Back\\Repositories\\ClienteRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:24:11.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:24:11.855Z"
             },
             {
               "$type": "Document",
@@ -290,8 +287,7 @@
               "RelativeToolTip": "Back\\Models\\Mascota.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:56:27.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T22:56:27.238Z"
             },
             {
               "$type": "Document",
@@ -303,8 +299,7 @@
               "RelativeToolTip": "Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T14:34:51.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T14:34:51.153Z"
             },
             {
               "$type": "Document",
@@ -316,8 +311,7 @@
               "RelativeToolTip": "Api\\Controllers\\MascotaController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:00:43.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T20:00:43.499Z"
             },
             {
               "$type": "Document",
@@ -329,8 +323,7 @@
               "RelativeToolTip": "Api\\Controllers\\AtencionController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwDsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:38:54.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T14:38:54.249Z"
             },
             {
               "$type": "Document",
@@ -354,8 +347,7 @@
               "RelativeToolTip": "Back\\Models\\Atencion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:12:29.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T17:12:29.031Z"
             },
             {
               "$type": "Document",
