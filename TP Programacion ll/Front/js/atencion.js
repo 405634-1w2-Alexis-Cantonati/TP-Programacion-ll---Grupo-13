@@ -102,15 +102,14 @@ async function cargarMascotas(selectedId = null) {
         const mascotaSelect = document.getElementById('mascotaSelect');
         mascotaSelect.innerHTML = '<option value="">Selecciona una mascota</option>';
 
-        // Agrega cada mascota como una opción en el select
         mascotas.forEach(mascota => {
             const option = document.createElement('option');
-            option.value = mascota.idMascota;       // Usa el id de la mascota como valor
-            option.textContent = mascota.nombre; // Usa el nombre de la mascota como texto
+            option.value = mascota.idMascota;      
+            option.textContent = mascota.nombre; 
             mascotaSelect.appendChild(option);
         });
         if (selectedId) {
-            mascotaSelect.value = selectedId; // Establece el valor del select en el id seleccionado
+            mascotaSelect.value = selectedId; // para que aparesca la masctota seleccionada cuando modifiques una
         }
     } catch (error) {
         console.error('Error:', error);

@@ -148,3 +148,5 @@ C:\Users\Federico\Desktop\TUP\TP-Programacion-ll---Grupo-13\TP Programacion ll\B
 C:\Users\Federico\Desktop\TUP\TP-Programacion-ll---Grupo-13\TP Programacion ll\Back\Api\obj\Debug\net6.0\ref\Api.dll
 C:\Users\Federico\Desktop\TUP\TP-Programacion-ll---Grupo-13\TP Programacion ll\Back\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Federico\Desktop\TUP\TP-Programacion-ll---Grupo-13\TP Programacion ll\Back\Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrador\OneDrive\Escritorio\TP-Programacion-ll---Grupo-13\TP Programacion ll\Back\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrador\OneDrive\Escritorio\TP-Programacion-ll---Grupo-13\TP Programacion ll\Back\Api\bin\Debug\net6.0\Newtonsoft.Json.dll
