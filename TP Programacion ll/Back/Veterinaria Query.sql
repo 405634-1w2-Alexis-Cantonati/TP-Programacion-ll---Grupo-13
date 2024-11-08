@@ -44,6 +44,16 @@ CONSTRAINT pk_atencion primary key(id_atencion)
 CONSTRAINT fk_mascota foreign key(id_mascota) REFERENCES Mascotas(id_mascota)
 )
 GO
+
+CREATE TABLE Usuarios(
+id_usuario int identity (1,1),
+NUsuario varchar(40),
+contraseña varchar(40)
+
+CONSTRAINT pk_id_usuario primary key (id_usuario)
+)
+go
+
 												--INSERTS--
 -- Inserts en Tipos
 INSERT INTO Tipos (nombre) VALUES 
@@ -68,3 +78,6 @@ INSERT INTO Atencion (id_mascota, fecha, descripcion, importe) VALUES
 (1, '2024-11-02 10:00', 'Consulta general', 300.50),
 (2, '2024-11-02 11:00', 'Vacunacion', 150.00),
 (3, '2024-11-02 12:00', 'Chequeo anual', 250.75);
+
+INSERT INTO Usuarios (NUsuario, contraseña) VALUES 
+('Admin','contra123')
