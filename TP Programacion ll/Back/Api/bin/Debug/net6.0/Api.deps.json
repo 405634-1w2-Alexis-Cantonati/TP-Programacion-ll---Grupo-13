@@ -528,10 +528,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.35"
         },
         "runtime": {
-          "Back.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Back.dll": {}
         }
       }
     }

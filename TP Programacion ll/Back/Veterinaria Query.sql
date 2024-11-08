@@ -65,7 +65,8 @@ GO
 INSERT INTO Clientes (nombre, sexo, codigo) VALUES 
 ('Juan Perez', 'Masculino', 101),
 ('Maria Gomez', 'Femenino', 102),
-('Carlos Lopez', 'Masculino', 103);
+('Carlos Lopez', 'Masculino', 103),
+('Mariana Juarez','No Binario',104);
 GO
 -- Inserts en Mascotas
 INSERT INTO Mascotas (id_tipo, id_cliente, nombre, edad) VALUES 

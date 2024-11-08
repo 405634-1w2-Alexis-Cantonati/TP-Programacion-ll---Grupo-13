@@ -3,8 +3,9 @@
     "",
     "\\TP Programacion ll",
     "\\TP Programacion ll\\Back",
-    "\\TP Programacion ll\\Back\\Back\\Models"
+    "\\TP Programacion ll\\Back\\Api",
+    "\\TP Programacion ll\\Back\\Api\\Controllers"
   ],
-  "SelectedNode": "\\TP Programacion ll\\Back\\Veterinaria Api.sln",
+  "SelectedNode": "\\TP Programacion ll\\Back\\Api\\Controllers\\UsuarioController.cs",
   "PreviewInSolutionExplorer": false
 }

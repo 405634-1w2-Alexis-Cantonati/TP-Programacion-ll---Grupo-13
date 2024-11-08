@@ -44,6 +44,85 @@ async function cargarGrafico() {
     });
 }
 
+async function cargarDatosClientes() {
+    try {
+        const responseClientes = await fetch('https://localhost:7042/api/Cliente');
+        const responseMascotas = await fetch('https://localhost:7042/api/Mascota');
+
+        const clientes = await responseClientes.json();
+        const mascotas = await responseMascotas.json();
+
+        const nCliente = clientes.length;
+        const nMascotas = mascotas.length;
+
+        cargarGraficoClientes(nCliente, nMascotas);
+    } catch (error) {
+        console.error("Error al cargar los datos:", error);
+    }
+}
+function cargarGraficoClientes(nCliente,nMascotas) {
+    const ctx = document.getElementById('graficoClientes').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Numero De Clientes', 'Numero De Mascotas'],
+            datasets: [{
+                label: 'Clientes y Mascotas',
+                data: [nCliente, nMascotas],
+                backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+                borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+}
+
+async function cargarDatosGenero() {
+    try {
+        const response = await fetch('https://localhost:7042/api/Cliente');
+
+        const clientes = await response.json();
+        let mujeres = 0
+        let hombres = 0
+        let noBinario = 0
+
+        clientes.forEach(cliente => {
+            if (cliente.sexo === "Femenino") mujeres++
+            if (cliente.sexo === "Masculino") hombres++
+            if (cliente.sexo === "No Binario") noBinario++
+        });
+
+        cargarGraficoGeneros(hombres, mujeres, noBinario);
+    } catch (error) {
+        console.error("Error al cargar los datos:", error);
+    }
+}
+function cargarGraficoGeneros(hombres, mujeres, noBinario) {
+    const ctx = document.getElementById('graficoGenero').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Numero De Hombres', 'Numero De Mujeres', 'Numero de no Binario'],
+            datasets: [{
+                label: 'Cantidad por genero',
+                data: [hombres, mujeres, noBinario],
+                backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'],
+                borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+}
 
 async function cargarDatosImportes() {
     try {

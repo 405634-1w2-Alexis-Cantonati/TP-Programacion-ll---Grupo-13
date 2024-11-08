@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj": {}
+    "C:\\Users\\lauta\\Downloads\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj": {
+    "C:\\Users\\lauta\\Downloads\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
+        "projectUniqueName": "C:\\Users\\lauta\\Downloads\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
         "projectName": "Back",
-        "projectPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\OneDrive\\Escritorio\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\obj\\",
+        "projectPath": "C:\\Users\\lauta\\Downloads\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\Back.csproj",
+        "packagesPath": "C:\\Users\\lauta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lauta\\Downloads\\TP-Programacion-ll---Grupo-13\\TP Programacion ll\\Back\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lauta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
