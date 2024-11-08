@@ -179,6 +179,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "Api.Controllers.UsuarioController",
     "Method": "IniciarSesion",
     "RelativePath": "api/Usuario",
@@ -192,6 +193,15 @@
         "IsRequired": true
       }
     ],
+=======
+    "ContainingType": "Api.Controllers.TipoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tipo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+>>>>>>> 1d8a40d4994bfbea431077b214ce4f58cf2521bf
     "ReturnTypes": []
   }
 ]
