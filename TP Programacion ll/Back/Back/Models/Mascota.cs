@@ -2,7 +2,6 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace Back.Models
 {
@@ -14,8 +13,8 @@ namespace Back.Models
         }
 
         public int IdMascota { get; set; }
-        public int IdTipo { get; set; }
-        public int IdCliente { get; set; }
+        public int? IdTipo { get; set; }
+        public int? IdCliente { get; set; }
         public string Nombre { get; set; }
         public int? Edad { get; set; }
 

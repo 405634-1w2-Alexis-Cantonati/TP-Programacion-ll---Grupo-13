@@ -17,6 +17,7 @@ namespace Back.Models
         public string Nombre { get; set; }
         public string Sexo { get; set; }
         public int? Codigo { get; set; }
+
         [JsonIgnore]
         public virtual ICollection<Mascota> Mascota { get; set; }
     }

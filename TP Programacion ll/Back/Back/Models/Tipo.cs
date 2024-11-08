@@ -15,6 +15,7 @@ namespace Back.Models
 
         public int IdTipo { get; set; }
         public string Nombre { get; set; }
+
         [JsonIgnore]
         public virtual ICollection<Mascota> Mascota { get; set; }
     }

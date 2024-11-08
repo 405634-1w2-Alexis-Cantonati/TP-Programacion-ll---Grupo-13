@@ -22,6 +22,7 @@ namespace Back.Models
         public virtual DbSet<Cliente> Clientes { get; set; }
         public virtual DbSet<Mascota> Mascotas { get; set; }
         public virtual DbSet<Tipo> Tipos { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -50,6 +51,7 @@ namespace Back.Models
                 entity.HasOne(d => d.IdMascotaNavigation)
                     .WithMany(p => p.Atencions)
                     .HasForeignKey(d => d.IdMascota)
+                    .OnDelete(DeleteBehavior.Cascade)
                     .HasConstraintName("fk_mascota");
             });
 
@@ -113,6 +115,23 @@ namespace Back.Models
                     .HasMaxLength(80)
                     .IsUnicode(false)
                     .HasColumnName("nombre");
+            });
+
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.HasKey(e => e.IdUsuario)
+                 .HasName("pk_usuario");
+
+                entity.Property(e => e.IdUsuario)
+                    .HasColumnName("id_usuario");
+                entity.Property(e => e.NUsuario)
+                    .HasMaxLength(40)
+                    .IsUnicode(false)
+                    .HasColumnName("NUsuario");
+                entity.Property(e => e.Constraseña)
+                    .HasMaxLength(40)
+                    .IsUnicode(false)
+                    .HasColumnName("contraseña");
             });
 
             OnModelCreatingPartial(modelBuilder);

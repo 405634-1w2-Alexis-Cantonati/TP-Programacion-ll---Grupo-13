@@ -142,9 +142,9 @@ async function crearMascota() {
     const idMascota = 0;
     const idTipo = parseInt(document.getElementById("tipoMascota").value);
     const nombreMascota = document.getElementById('nombreMascota').value;
+    const edad= document.getElementById('edad').value;
 
     const idCliente = document.getElementById("nombreCliente").value;
-
 
     const datos = {
         idMascota: 0,
@@ -153,7 +153,8 @@ async function crearMascota() {
         nombre: nombreMascota,
         edad: edad
     };
-
+    console.log(datos);
+    
     try {
         const respuesta = await fetch(`https://localhost:7042/api/Mascota`, {
             method: 'POST',
@@ -289,7 +290,8 @@ async function crearAtencion() {
         descripcion: Descripcion,
         importe: parseFloat(Importe)
     };
-
+    console.log(datos);
+    
     try {
         const respuesta = await fetch(`https://localhost:7042/api/Atencion`, {
             method: 'POST',
@@ -336,3 +338,11 @@ async function cargarMascotas() {
 //en el formulario de modificar debo traer tambien la fecha de atencion y el nombre de cliente -->se supone ya esta pero ahora tira un 400 al enviar
 //en transaccion es lo mismo que consultar pero trae todos los datos
 //en dashboard tengo que ver que muestro
+
+const token = localStorage.getItem("jwt_token");
+
+if (!token) {
+    window.location.href = "login.html";
+} else {
+    console.log("Token encontrado, acceso permitido.");
+}
