@@ -17,20 +17,30 @@ namespace Back.Repositories
         }
         public bool IniciarSesion(Usuario usuario)
         {
-            
+
             if (!string.IsNullOrEmpty(usuario.NUsuario) && !string.IsNullOrEmpty(usuario.Constraseña))
             {
                 var usuarioEncontrado = _context.Usuarios.FirstOrDefault(e => e.NUsuario == usuario.NUsuario);
                 if (usuarioEncontrado != null && usuarioEncontrado.Constraseña == usuario.Constraseña)
                 {
-                    return true;    
+                    return true;
                 }
             }
             return false;
         }
         public bool Create(Usuario usuario)
         {
-            throw new NotImplementedException();
+            var aux = _context.Usuarios.FirstOrDefault(e => e.NUsuario == usuario.NUsuario);
+            if (aux == null)
+            {
+                _context.Usuarios.Add(usuario);
+                var response = _context.SaveChanges();
+                if (response > 0)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
     }

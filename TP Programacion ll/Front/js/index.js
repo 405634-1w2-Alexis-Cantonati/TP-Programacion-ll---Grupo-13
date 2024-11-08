@@ -339,10 +339,4 @@ async function cargarMascotas() {
 //en transaccion es lo mismo que consultar pero trae todos los datos
 //en dashboard tengo que ver que muestro
 
-const token = localStorage.getItem("jwt_token");
 
-if (!token) {
-    window.location.href = "login.html";
-} else {
-    console.log("Token encontrado, acceso permitido.");
-}

@@ -29,7 +29,7 @@ namespace Api.Controllers
             if (response)
             {
                 var token = GenerarJwt(usuario.NUsuario);
-                return Ok(new { token }); 
+                return Ok(new { token });
             }
             return BadRequest("Credenciales incorrectas.");
         }
@@ -46,24 +46,30 @@ namespace Api.Controllers
         };
 
             var token = new JwtSecurityToken(
-                issuer: "https://localhost:7042", 
-                audience: "https://localhost:5500", 
-                claims: claims, 
-                expires: DateTime.Now.AddYears(1), 
-                signingCredentials: credencial 
+                issuer: "https://localhost:7042",
+                audience: "https://localhost:5500",
+                claims: claims,
+                expires: DateTime.Now.AddYears(1),
+                signingCredentials: credencial
             );
 
-            return new JwtSecurityTokenHandler().WriteToken(token); 
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        [HttpPost("registro")]
+        public IActionResult Create(Usuario usuario)
+        {
+            var response = _repository.Create(usuario);
+            if (response)
+            {
+                return Ok("Satisfactorio");
+            }
+            else
+            {
+                return BadRequest("Problema");
+            }
+        }
+
     }
-
-    /*[HttpPost]
-    public IActionResult Create(Usuario usuario)
-    {
-
-    };*/
-
-
-
 }
 
